@@ -1,6 +1,22 @@
 .bg-blue {
 	background-color: silver;
+    
 }
 
-  
+body {
+	background-image: url('images/embossed-diamond.webp');
+	background-repeat: repeat;
+    text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: gray
+}
+/* 
+.col-md-6 {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: gray
+}
+   */
   
