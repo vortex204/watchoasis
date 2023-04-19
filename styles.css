@@ -1,15 +1,13 @@
 .bg-blue {
 	background-color: silver;
-    
 }
 
 body {
 	background-image: url('images/embossed-diamond.webp');
 	background-repeat: repeat;
     text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	font-weight: bolder;
-	/* color: gray */
 }
 
 .navbar-brand {
@@ -18,6 +16,17 @@ body {
     font-weight: bolder;
     font-size: xx-large;
 }
+
+.ul1{
+    padding-top: 1%;
+    
+}
+
+.pitch{
+    padding-top: 1%;
+}
+
+
 /* 
 .col-md-6 {
 	text-decoration: none;
