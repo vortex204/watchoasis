@@ -8,6 +8,7 @@ body {
     text-decoration: none;
 	font-family: sans-serif;
 	font-weight: bolder;
+	font-size: large;
 }
 
 .navbar-brand {
@@ -17,22 +18,30 @@ body {
     font-size: xx-large;
 }
 
-.ul1{
+.ul1, .pitch {
     padding-top: 1%;
     
 }
 
-.pitch{
+/* .pitch{
     padding-top: 1%;
+} */
+
+
+h5 {
+	text-decoration: underline;
+	font-weight: bold;
 }
 
-
-/* 
-.col-md-6 {
+h1, h2 {
 	text-decoration: none;
-	font-family: sans-serif;
 	font-weight: bolder;
-	color: gray
 }
-   */
-  
+
+.card {
+	height: 58vh;
+	min-height: 58vh;
+	max-height: 58vh;
+	margin-bottom: 1.2rem;
+}
+
