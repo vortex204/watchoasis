@@ -109,6 +109,30 @@
                     <div class="form-group">
                         <label for="zip">Zip Code:</label>
                         <input type="text" id="zip" name="zip" class="form-control" required>
+                        <section class="container">
+                            <h2 class="text-center mt-5 mb-3">Payment Information</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number:</label>
+                                    <input type="text" class="form-control" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardName">Name on Card:</label>
+                                    <input type="text" class="form-control" id="cardName" name="cardName" placeholder="name" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="cardExp">Expiration Date:</label>
+                                        <input type="text" class="form-control" id="cardExp" name="cardExp" placeholder="MM/YY" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cardCvv">CVV:</label>
+                                        <input type="text" class="form-control" id="cardCvv" name="cardCvv" placeholder="123" required>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </section>
                     </div>
                     <div class="form-group">
                         <table class="table">
