@@ -20,13 +20,7 @@ body {
 
 .ul1, .pitch {
     padding-top: 1%;
-    
 }
-
-/* .pitch{
-    padding-top: 1%;
-} */
-
 
 h5 {
 	text-decoration: underline;
@@ -39,9 +33,9 @@ h1, h2 {
 }
 
 .card {
-	height: 58vh;
-	min-height: 58vh;
-	max-height: 58vh;
+	height: 55vh;
+	min-height: 55vh;
+	max-height: 55vh;
 	margin-bottom: 1.2rem;
 }
 
