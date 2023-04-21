@@ -1,3 +1,4 @@
+/* navbar color */
 .bg-blue {
 	background-color: silver;
 }
@@ -10,14 +11,14 @@ body {
 	font-weight: bolder;
 	font-size: large;
 }
-
+/* only affects the watch oasis section on the navbar */
 .navbar-brand {
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
 }
-
+/* affects user login header and the first paragraph on homepage  */
 .ul1, .pitch {
     padding-top: 1%;
 }
